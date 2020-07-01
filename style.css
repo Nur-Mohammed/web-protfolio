@@ -116,8 +116,10 @@ section.latest-work .images .latest-img {
 /* Css of services  section */
 /* =================== */
 section.services {
+    background: #F8F9FC;
     text-align: center;
     height: 400px;
+    padding-top: 30px;
 }
 
 section.services .wrapper {
@@ -141,6 +143,8 @@ section.services .wrapper .text-content {
     background-color: rgba(105, 105, 105, 0.164);
     border-radius: 10px;
     box-shadow: 5px 5px 20px #EC4D83;
+    min-height: 300px;
+    box-sizing: border-box;
 
 }
 
@@ -148,6 +152,7 @@ section.services .wrapper .text-content {
 /* Css of Client section */
 /* =================== */
 section.client-section {
+    padding-top: 30px;
     text-align: center;
     height: 400px;
 }
